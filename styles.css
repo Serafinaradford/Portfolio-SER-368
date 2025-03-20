@@ -154,7 +154,8 @@ color: var(--kacky)
   }
   #contact {
     background-color: var(--pinky);
-    color: var(--bluey1)
+    color: var(--bluey1);
+    
   }
   
   
@@ -191,6 +192,14 @@ color: var(--kacky)
     color: var(--base100);
     font-size: 25px;
     padding: 30px;
+  }
+  #photo-me {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+    height: 525px;
+    color: var(--base100);
+    border-radius: 100%;
   }
   @media only screen and( width <700 px){
     h1{
