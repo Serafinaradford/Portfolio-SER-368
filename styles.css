@@ -79,3 +79,14 @@
   margin: 25px 0;
   font-style: italic;
   }
+  #projects .project-tile{
+    height: 525px;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+  }
+  #projects .project-tile img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
