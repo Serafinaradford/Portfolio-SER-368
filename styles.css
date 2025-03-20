@@ -9,6 +9,7 @@
   
   *{
     margin: 0;
+    scroll-behavior: smooth;
   }
   body{
     font-family: "Barriecito", serif;
@@ -151,10 +152,12 @@
 background-color: var(--neutral);
 color: var(--kacky)
   }
-  #contact{
+  #contact {
     background-color: var(--pinky);
     color: var(--bluey1)
   }
+  
+  
   #contact h1{
     margin-top: 300px;
   }
