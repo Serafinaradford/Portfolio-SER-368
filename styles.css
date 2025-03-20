@@ -132,3 +132,23 @@
     color: var(--bluey2);
     transition: opacity 0.25s ease-in;
   }
+  .show-all{
+    text-decoration: none;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 0px 15px;
+    background-color: var(--base100);
+    color: var(--bluey1);
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in;
+    
+
+  }
+  show-all:hover{
+background-color: var(--neutral);
+color: var(--kacky)
+  }
