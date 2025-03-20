@@ -4,7 +4,7 @@
     --bluey2: #8bd3dd;
     --neutral: #00214d;
     --base100: #fef6e4;
-    --kacky: #f3d2c1;
+    --orangy: #f25f4c;
   }
   
   *{
@@ -140,14 +140,62 @@
     margin: auto;
     padding: 0px 15px;
     background-color: var(--base100);
-    color: var(--bluey1);
+    color: var(--bluey2);
     font-size: 25px;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.2s ease-in;
-    
+
   }
   .show-all:hover{
 background-color: var(--neutral);
 color: var(--kacky)
   }
+  #contact{
+    background-color: var(--pinky);
+    color: var(--bluey1)
+  }
+  #contact h1{
+    margin-top: 300px;
+  }
+  #contact .question{
+    color: var(--base100);
+  font-size: 25px;
+  font-style: italic;
+  }
+  #contact .social-medias{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 30px;
+  }
+  #contact .social-media{
+    text-decoration: none;
+    color: var(--neutral);
+    transition: trasnform 2s ease-in;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    font-size: 22px;
+  }
+  #contact .social-media:hover{
+    transform: translateY(10px);
+  }
+  .footer{
+    border-top: 3px solid var(--neutral);
+    color: var(--base100);
+    font-size: 25px;
+    padding: 30px;
+  }
+  @media only screen and( width <700 px){
+    h1{
+      font-size: 50px;
+    }
+    #projects .project-tile{
+      height: 600px;
+      width: 100%;
+    }
+  }
+  
