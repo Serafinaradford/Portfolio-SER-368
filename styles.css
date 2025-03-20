@@ -78,15 +78,42 @@
   font-size: 25px;
   margin: 25px 0;
   font-style: italic;
+  
+  }
+  #projects{
+    background-color: var(--bluey2);
+    color: var(--base100)
+  }
+  #projects h1{
+    border-bottom: 5px solid var(--neutral);
+    width: fit-content;
+    margin: auto;
+
+  }
+  #project .projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 20px;
+    place-items: center;
+    max-width: 1200px;
+    margin: auto;
   }
   #projects .project-tile{
     height: 525px;
     width: 100%;
     display:flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--kacky);
+   color: var(--bluey1);
+   border-radius: 5px;
+   box-shadow: 8px 8px 10px 5px rgba(100, 100, 100, 0.3);
   }
   #projects .project-tile img{
     height: 100%;
     width: 100%;
     object-fit: cover;
+
   }
