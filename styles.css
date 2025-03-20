@@ -34,7 +34,7 @@
     font-style: normal;
   }
   
-  #nav-bar{
+  #navbar{
   display: flex;
   justify-content: center;
   position: fixed;
