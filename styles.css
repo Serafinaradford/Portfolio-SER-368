@@ -132,7 +132,7 @@
     color: var(--bluey2);
     transition: opacity 0.25s ease-in;
   }
-  #show-all{
+  .show-all{
     text-decoration: none;
     width: max-content;
     display: flex;
@@ -148,7 +148,7 @@
     
 
   }
-  #show-all:hover{
+  .show-all:hover{
 background-color: var(--neutral);
 color: var(--kacky)
   }
