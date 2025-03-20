@@ -130,4 +130,5 @@
   #projects .project-tile:hover span{
     opacity: 100%;
     color: var(--bluey2);
+    transition: opacity 0.25s ease-in;
   }
