@@ -90,7 +90,7 @@
     margin: auto;
 
   }
-  #project .projects{
+  #projects .projects{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
@@ -146,7 +146,6 @@
     cursor: pointer;
     transition: background-color 0.2s ease-in;
     
-
   }
   .show-all:hover{
 background-color: var(--neutral);
